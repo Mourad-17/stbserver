@@ -50,6 +50,13 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>stbserver</finalName>
+			<resources>
+				<resource>
+					<directory>src/main/resources</directory>
+					<filtering>false</filtering>
+				</resource>
+			</resources>
 	</build>
 
 	<repositories>
